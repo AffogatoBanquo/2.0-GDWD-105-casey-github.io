@@ -1,0 +1,22 @@
+body, ul {
+    margin: 0px;
+}
+
+ul {
+    display: flex;
+    list-style: none; 
+    /* List-style: none; removes the bullet points */
+    padding-left: 0px;
+    align-items: center;
+    height: 50px;
+    gap: 20px;
+    padding: 5px;
+}
+
+nav {
+    background-color: skyblue;
+}
+
+#home {
+    margin-right: auto;
+}
