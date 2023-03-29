@@ -1,0 +1,17 @@
+body, ul {
+    margin: 0;
+}
+
+ul li{
+    display: inline;
+}
+
+nav {
+    background-color: lightblue;
+    text-align: center;
+}
+ul li{
+    padding-left: 0
+
+}
+ ul
