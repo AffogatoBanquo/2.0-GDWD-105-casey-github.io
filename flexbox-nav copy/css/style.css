@@ -1,33 +1,17 @@
-body,{
+body, ul {
     margin: 0px;
-    background-color: rgb(255, 250, 232);
 }
 
-ul{
+ul {
     display: flex;
-    flex-direction: row;
     list-style: none; 
     /* List-style: none; removes the bullet points */
-    padding:50px;
-    justify-content: center;
+    padding-left: 0px;
+    justify-content: flex-auto;
     align-items: center;
-    height: 50px
-    
-}
-
-.dropdown-menu {
-    background-color: pink;
-    position: absolute;
-    opacity: 0;
-
-}
-
-.trigger-dropdown{
-
-}
-
-.trigger-dropdown:hover .dropdown-menu{
-    opacity: 1;
+    height: 5vh;
+    gap: 20px;
+    padding: 20px;
 }
 
 ul a {
@@ -51,3 +35,21 @@ nav {
     margin-right: auto;
 }
 
+/* Media Query TABLETS */
+@media only screen and (max-width: 768px){
+    ul {
+
+    flex-direction: column;
+    height: 10vh;
+}
+
+    #home {
+        margin-right: 0;
+
+    }
+
+nav {
+    background-size: 50vh;
+}
+
+}
