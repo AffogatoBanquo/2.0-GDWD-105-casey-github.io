@@ -1,0 +1,19 @@
+
+
+.nav{
+-color: rgb(222, 101, 101);
+    padding: 10px;  
+    
+    
+body{
+    background-color: rgb(191, 231, 248);
+}
+}
+
+.nav-bar{
+    display: flex-box;
+    list-style: none;
+    padding: auto;
+   
+
+}
