@@ -1,4 +1,4 @@
-body,{
+body{
     margin: 0px;
     background-color: rgb(255, 250, 232);
 }
@@ -20,7 +20,7 @@ ul{
 }
 
 
-#drop li {
+#drop > li {
     padding: 25px;
 }
 
@@ -33,9 +33,7 @@ ul{
 
 }
 
-.trigger-dropdown{
 
-}
 
 .trigger-dropdown:hover .dropdown-menu{
     opacity: 1;
