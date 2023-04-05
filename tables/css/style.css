@@ -1,0 +1,28 @@
+
+/* removes the white border inbetween the  1st row color */
+table {
+    border-collapse: collapse;
+}
+ /* color of first row */
+tr:nth-of-type(1) {
+    background-color: lightcoral;
+    color: white
+}
+
+td, th {
+    padding: 10px;
+}
+
+tr:nth-of-type(3) {
+
+    background-color: rgba(239, 175, 175, 0.304);
+    color: lightcoral;
+    font-weight: 600;
+    /* border: color, px, type (Solid or Dotted) */
+    border-top: darkgray 1px solid;
+    border-bottom: darkgray 1px solid;
+}
+
+tr:nth-of-type(6) {
+    border-bottom: darkgray 2px solid;
+}
