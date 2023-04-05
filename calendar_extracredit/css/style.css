@@ -1,0 +1,71 @@
+h1{
+    color: rgb(156, 13, 13);
+}
+
+h2{
+    color: rgba(156, 13, 13, 0.582);
+    
+}
+
+td, th{
+    padding:10px
+}
+
+tr, td{
+    border-left:rgba(156, 13, 13, 0.425) 1px solid;
+}
+
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+
+
+}
+
+tr:nth-of-type(1) {
+    background-color: rgb(237, 152, 152);
+    color: cornsilk;
+    border-right: lightslategray 0.5px solid;
+    border-left: lightslategray 0.5px solid;
+    border-bottom: lightslategray 0.5px solid;
+}
+
+tr:nth-of-type(2) {
+    background-color: rgba(240, 128, 128, 0.504);
+    color: cornsilk;
+    border-right: lightslategray 0.5px solid;
+    border-left: lightslategray 0.5px solid;
+    border-bottom: lightslategray 0.5px solid;
+}
+
+tr:nth-of-type(3) {
+    background-color: rgba(240, 128, 128, 0.504);
+    color: cornsilk;
+    border-right: lightslategray 0.5px solid;
+    border-left: lightslategray 0.5px solid;
+    border-bottom: lightslategray 0.5px solid;
+}
+
+tr:nth-of-type(4) {
+    background-color: rgba(240, 128, 128, 0.504);
+    border-right: lightslategray 0.5px solid;
+    border-left: lightslategray 0.5px solid;
+    border-bottom: lightslategray 0.5px solid;
+}
+
+tr:nth-of-type(4) {
+    background-color:rgba(240, 128, 128, 0.504);
+    color: cornsilk;
+    border-right: lightslategray 0.5px solid;
+    border-left: lightslategray 0.5px solid;
+    border-bottom: lightslategray 0.5px solid;
+}
+
+tr:nth-of-type(5) {
+    background-color: rgba(240, 128, 128, 0.504);
+    color: cornsilk;
+    border-right: lightslategray 0.5px solid;
+    border-left: lightslategray 0.5px solid;
+    border-bottom: lightslategray 0.5px solid;
+}
