@@ -1,0 +1,51 @@
+body {
+    display: grid;
+    height: 100vh;
+    /* fr=fraction; creates relative units */
+    grid-template-columns : 10% 90%;
+    grid-template-rows : 10% 80% 10%;
+    grid-template-areas :
+    "navArea headerArea heaerArea"
+    "navArea contentArea contentArea"
+    "navArea footerArea footerArea"
+    ;
+
+}
+
+nav {
+    grid-area: navArea;
+    background-color: pink;
+}
+
+header{
+    grid-area: headerArea;
+    background-color: lavender;
+
+}
+
+main{
+    grid-area: contentArea;
+    background-color: lightpink;
+
+}
+
+footer{
+    grid-area: footerArea;
+    background-color: lavender;
+}
+
+/* media query */
+
+@media screen and (max-width:768px) {
+    body {
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 5% 75% 10%;
+        grid-template-areas: 
+        "headerArea"
+        "NavArea"
+        "contentArea"
+        "footerArea"
+        ;
+        
+    }
+}
