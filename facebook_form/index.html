@@ -20,6 +20,138 @@
             <div class="form">
                 <form action="POST">
                     
+                  
+      <!-- My Work -->
+    <fieldset>
+        <h1>Create a New Account! </h1>
+        <h2>Its Super Quick and Easy!!</h2>
+        <br>
+        
+    <div id="name-inputs">
+        <!-- First Name Input -->
+        <input type="text" name="firstName" id="firstName" placeholder="First Name" required minlength="2" maxlength="30">
+
+        <input type="text" name="lastName" id="lastName" placeholder="Last Name" required minlength="1" maxlength="30">
+        <br>
+
+        <!-- # Number & Email -->
+        <input type="text" name="email" id="email" placeholder="Mobile # or Email" required minlength="1" maxlength="30">
+
+    </div>
+        <br>
+
+    <div id="passMail">
+        <!-- Password -->
+       <input type="text" name="password" id="password" placeholder="New Password" required>
+
+         <!-- Email -->
+       <input type="text" name="email" id="email" placeholder="Email" required>
+
+    </div> 
+       <br>
+
+    <div id="birth">
+        <hr>
+        <!-- Birthday -->
+        <label for="birthdaySelection" id="birthdaySelection"> Birthday </label required>
+    
+
+        <br>
+        <!-- Month -->
+
+    <div id="selectBirth">
+
+        <label for="birthdayMonth" id="birthdayMonth" ></label>
+        <select name="birthdayMonth" id="birthdayMonth">
+            <option value="january"> January </option>
+            <option value="February"> February </option>
+            <option value="March"> March </option>
+            <option value="April"> April </option>
+            <option value="May"> May </option>
+            <option value="June"> June </option>
+            <option value="July"> July </option>
+            <option value="August"> August </option>
+            <option value="September"> September </option>
+            <option value="October"> October </option>
+            <option value="November"> November </option>
+            <option value="December"> December </option>
+            </select>
+         
+
+            <!-- Day -->
+            <label for="birthdayDay"></label>
+            <select type="" name="birthdayDay" id="birthdayDAY">
+                <option value="1"> 1 </option>
+                <option value="2"> 2 </option>
+                <option value="3"> 3 </option>
+                <option value="3"> 3 </option>
+                <option value="4"> 4 </option>
+            </select>    
+        
+            <!-- Year -->
+            <label for="birthdayYear"></label>
+            <select name="birthdayYear" id="birthdayYear">
+            <option value="2000"> 2000 </option>
+            <option value="2001"> 2001 </option>
+            <option value="2002"> 2002 </option>
+            <option value="2003"> 2003 </option>
+            <option value="2004"> 2004 </option>
+            </select>
+
+    </div>
+
+        </div>
+            <br>
+
+    
+            
+        
+            <!-- Gender -->
+            <hr>
+            <label for="genderSelection" id="genderSelection"> Gender Selection </label>
+            <br>
+
+    <div class="genderSelect">
+
+        <div class="radio" required>
+            <!-- Male gender -->
+            <label for="maleGender"> Male </label>
+            <input type="radio"  required>
+        </div>
+
+        <div class="radio">
+            <!-- Female gender -->
+            <label for="femaleGender"> Female </label>
+            <input type="radio" required>
+        </div>
+
+        <div class="radio">
+            <!-- Custom gender -->
+            <label for="customGender"> Custom </label>
+            <input type="radio" required>
+
+        </div>
+        
+
+    </div>
+
+ <!-- FB disclaimer? -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique facilis eveniet atque molestiae. Nam ad ut aliquam minima neque, voluptatum earum laudantium quisquam omnis exercitationem sequi ex officia dicta fuga?</p>
+
+<!-- SUBMIT BUTT. -->
+<div id="submit">
+    <input type="submit" id="submit" value="Submit">
+</div>
+
+
+<!-- existing acc? -->
+<div id="accExist"></div>
+<h3> <a href="#"> Already have an account? </a></h3>
+
+
+
+</fieldset>
+
                 </form>
             </div>
         </section>
@@ -28,100 +160,7 @@
         </div>
     </main>
 
-    <!-- My Work -->
-    <fieldset>
-                <h1>Create a New Account! </h1>
-                <h2>Its Super Quick and Easy!!</h2>
-                <br>
-                
-                <!-- First Name Input -->
-                <input type="text" name="firstName" id="firstName" placeholder="First Name">
-        
-                <input type="text" name="lastName" id="lastName" placeholder="Last Name">
-                <br>
-
-                <!-- # Number & Email -->
-                <input type="text" name="email" id="email" placeholder="Mobile # or Email">
-                <br>
-
-                <!-- Password -->
-               <input type="text" name="password" id="password" placeholder="New Password">
-                <br>
-
-                <hr>
-                <!-- Birthday -->
-                <label for="birthdaySelection" id="birthdaySelection"> Birthday </label>
-                <br>
-                <!-- Month -->
-                <label for="birthdayMonth" id="birthdayMonth" ></label>
-                <select name="birthdayMonth" id="birthdayMonth">
-                    <option value="january"> January </option>
-                    <option value="February"> February </option>
-                    <option value="March"> March </option>
-                    <option value="April"> April </option>
-                    <option value="May"> May </option>
-                    <option value="June"> June </option>
-                    <option value="July"> July </option>
-                    <option value="August"> August </option>
-                    <option value="September"> September </option>
-                    <option value="October"> October </option>
-                    <option value="November"> November </option>
-                    <option value="December"> December </option>
-                    </select>
-                 
-
-                    <!-- Day -->
-                    <label for="birthdayDay"> Day </label>
-                    <select type="" name="birthdayDay" id="birthdayDAY">
-                        <option value="1"> 1 </option>
-                        <option value="2"> 2 </option>
-                        <option value="3"> 3 </option>
-                        <option value="3"> 3 </option>
-                        <option value="4"> 4 </option>
-                    </select>    
-                
-                    <!-- Year -->
-                    <label for="birthdayYear"> Year </label>
-                    <select name="birthdayYear" id="birthdayYear">
-                    <option value="2000"> 2000 </option>
-                    <option value="2001"> 2001 </option>
-                    <option value="2002"> 2002 </option>
-                    <option value="2003"> 2003 </option>
-                    <option value="2004"> 2004 </option>
-                    </select>
-                    <br>
-                    
-
-                    <!-- Gender -->
-                    <hr>
-                    <label for="genderSelection" id="genderSelection"> Gender Selection </label>
-                    <br>
-
-                    <!-- Male gender -->
-                    <label for="maleGender"> Male </label>
-                    <input type="radio">
-
-                    <!-- Female gender -->
-                    <label for="femaleGender"> Female </label>
-                    <input type="radio">
-
-                    <!-- Custom gender -->
-                    <label for="customGender"> Custom </label>
-                    <input type="radio">
-
     
-         <!-- FB disclaimer? -->
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique facilis eveniet atque molestiae. Nam ad ut aliquam minima neque, voluptatum earum laudantium quisquam omnis exercitationem sequi ex officia dicta fuga?</p>
-        
-        <!-- SUBMIT BUTT. -->
-        <input type="submit" id="submit" value="Submit">
-
-        <!-- existing acc? -->
-        <h3> Already have an account? </h3>
-    
-
-
-    </fieldset>
     
 </body>
 </html>
