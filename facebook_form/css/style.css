@@ -17,6 +17,8 @@ input {
 }
 
 
+
+
 #name-inputs{
     display: flex;
     justify-content: center;
@@ -80,6 +82,15 @@ main {
 .submit{
     display: flex;
     justify-content: center;
+}
+
+
+input:valid{
+    border: 3px green solid;
+}
+
+input:invalid{
+    border: 3px red solid;
 }
 
 
