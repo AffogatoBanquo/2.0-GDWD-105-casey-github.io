@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+h2 {
+    text-align:center;
+    font-size: small;
+    font-style: light;
+}
+
+h3 {
+    text-align:center;
+    font-weight: 100;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+body {
+    margin: 5px;
+    background-color: #f0f2f5;
+    border-radius: 20 px;
+}
+
+/* input {
+    border-radius: 5px;
+    margin: 5px;
+    padding: 15px;
+} */
+
+
+/* media query */
+
+@media screen and (max-width: 1200px) {
+    main {
+        grid-template-columns: 20% 60% 20%;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    main {
+        grid-template-columns: 10% 80% 10%;
+    }
+}
