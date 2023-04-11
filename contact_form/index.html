@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="css/style.css">
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <header>
+        <h1>Contact Us</h1>
+        <h2> Got Milk? Milk Got? Please don'e email us, I dont feel like responding tbh, okay bye. </h2>
+        </header>
+
+        <form action="https://getform.io/f/81a2f6d7-c51f-4cd1-a7db-f6d254ba45c3" method="post">
+            <fieldset>
+            
+            <!-- what can we help ypu with? -->
+                <label for="help"> What can we help you with? </label>
+                <select name="What Can We Help You With?" id="help">
+                    <option value='nope'> Whats Wrong? </option>
+                    <option value="broken"> The Site is Not Working? </option>
+                    <option value="lost"> How did I get here? </option>
+                    <option value='nope1'> Nope </option>
+                    <option value='nope2'> Nope </option>
+                    <option value='nope3'> Nope </option>
+
+            <br>
+
+                </select>
+
+                <!-- Name Input -->
+                <label for="lastName"> First Name </label>
+                <input type="text" name="firstName" id="firstName" placeholder="First Name" required minlength="1" maxlength="50">
+
+                <label for="lastName"> Last Name </label>
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name" required minlength="1" maxlength="50">
+
+            <br>
+
+                <!-- Email Input -->
+                <label for="email"> Email </label>
+                <input type="email" id="email" placeholder="Email" required minlength="8" maxlength="50">
+
+            <br>    
+
+                <!-- Message Input -->
+                <label for="textarea"> Message </label>
+                <input type="textarea" id="message" placeholder="Whats Up Dawg?" required minlength="1" maxlength="500">
+
+             <br>   
+
+                <!-- Submit Button -->
+                <input type="submit" value="Submit">
+
+
+
+
+            </fieldset>
+            
+
+
+    </body>
+</html>
