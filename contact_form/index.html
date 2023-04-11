@@ -10,7 +10,8 @@
     <body>
         <header>
         <h1>Contact Us</h1>
-        <h2> Got Milk? Milk Got? Please don't email us, I dont feel like responding tbh, okay bye. </h2>
+        <h2> Got Milk? Milk Got?</h2>
+        <h3>Please don't email us, I dont feel like responding tbh, okay bye. </h3>
         </header>
 
         <form action="https://getform.io/f/81a2f6d7-c51f-4cd1-a7db-f6d254ba45c3" method="post">
@@ -18,6 +19,7 @@
             
              <!-- what can we help you with? -->
 
+        <div class="inputs1">
                 <div id="help">
                 <label for="help"> What can we help you with? </label>
                 <select name="What Can We Help You With?" id="help">
@@ -29,23 +31,28 @@
                     <option value='nope3'> Nope </option>
                 </select>
                 </div>
+        </div>     
             <br>
             
 
             
 
                 <!-- Name Input -->
+        <div class="inputs2">
                 <div id="name">
-                <label for="lastName"> First Name </label>
+                <label for="lastName"> Name </label>
                 <input type="text" name="firstName" id="firstName" placeholder="First Name" required minlength="1" maxlength="50">
 
                 <!-- <label for="lastName"> Last Name </label>
                 <input type="text" name="lastName" id="lastName" placeholder="Last Name" required minlength="1" maxlength="50"> -->
                 </div>
+        </div>
 
             <br>
 
                 <!-- Email Input -->
+
+    <div class="inputs3">
                 <div id="email">
                 <label for="email"> Email </label>
                 <input type="email" id="email" placeholder="Email" required minlength="8" maxlength="50">
@@ -54,16 +61,22 @@
             <br>    
 
                 <!-- Message Input -->
-                <div id="message">
+                <!-- <div id="message">
                 <label for="textarea"> Message </label>
                 <input type="textarea" id="message" placeholder="Whats Up Dawg?" required minlength="1" maxlength="500">
-                </div>
+                </div> -->
 
+                <label for="message"> Message </label>
+                <textarea name="message" id="message" cols="30" rows="10">
+                </textarea>
+
+        </div>
+    </div>
              <br>   
 
                 <!-- Submit Button -->
                 <div id="submit">
-                <input type="submit" value="Submit">
+                    <input type="submit" id="subButt" value="Submit">
                 </div>
 
 

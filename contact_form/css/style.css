@@ -1,29 +1,94 @@
+
+
 h1 {
     text-align: center;
     font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h2 {
     text-align:center;
-    font-size: small;
-    font-style: light;
+    font-size: medium;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h3 {
     text-align:center;
-    font-weight: 100;
+    font-size: smaller;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 fieldset {
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border-color:  lightslategray;
+    border-width: 1px;
+}
+
+#help{
+    display: flex;
+    justify-content: left;
+    gap: 6px;
+
+}
+
+#name{
+    display: flex;
+    justify-content: left;
+    gap: 6px;
+
+}
+
+#email{
+    display: flex;
+    justify-content: left;
+    gap: 6px;
+}
+
+#message{
+    display: flex;
+    justify-content: left;
+    gap: 6px;
+
+}
+
+#submit{
+
+    margin:10px;
+    font-weight: 600;
+}
+
+#subButt {
+    border: none; 
+    background-color: lightcoral;
+    padding: 10px;
+    border-radius: 3px;
     
 }
+
+.inputs1 input{
+    width: 300px;
+}
+
+.inputs2 input{
+    width: 300px;
+}
+
+.inputs3 input{
+    width: 300px;
+}
+
 
 
 body {
     margin: 5px;
     background-color: #f0f2f5;
     border-radius: 20 px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* input {
