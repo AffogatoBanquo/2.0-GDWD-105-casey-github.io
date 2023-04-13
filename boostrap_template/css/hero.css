@@ -1,0 +1,25 @@
+.site-hero {
+    height: 80vh;
+    /* to source an image you essentially are typing the path to get there */
+    background-image: url("../assets/branding/wood_bkgrnd.jpg");
+    /* centered and filled the 'class=sitehero' div */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero-text {
+    color: lightslategray;
+    font-family: "Bebas Neue";
+    text-align: center;
+    font-style:italic;
+
+}
+
+.hero-text h1 {
+    /* 'em' relative to other elements & thepage */
+    font-size: 5em;
+}
