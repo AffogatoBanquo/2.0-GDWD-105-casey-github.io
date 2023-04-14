@@ -1,0 +1,65 @@
+/* .Reference your example CSS code from the previous demos, and remember to use:
+element, class (.), and id (#) selectors
+CSS properties like:
+margin (and variations like margin-left, margin-bottom, etc.)
+border
+padding (and variations like padding-left, padding-bottom, etc.)
+background-color
+color
+ */
+
+body {
+    background-color: lavender;
+    padding: 50px;
+   
+}
+
+#intro {
+    background-color:rgba(105, 90, 205, 0.64);
+    border: 10px rgba(71, 61, 139, 0.808) solid;
+    padding: 30px;
+    color:aliceblue;
+   
+}
+
+
+.quote{
+
+}
+
+.quote-content{
+    text-indent: 55px;
+
+}
+
+.quote-citation{
+    text-indent: 55px;
+    font-size: 15px;
+
+}
+
+#p1 {
+padding-bottom: 10px;
+
+}
+
+#p2 {
+    padding-bottom: 20px;
+    
+}
+
+#p3 {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    
+}
+
+#p4 {
+    padding-bottom: 5px;
+    
+}
+
+#footer{
+    padding-top: 15px;
+    font-size: 15px;
+}
