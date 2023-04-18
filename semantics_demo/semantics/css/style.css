@@ -1,5 +1,6 @@
 body{
-    background:lightblue;
+    background:aliceblue;
+    padding-bottom: 50px;
 }
 
 h1{
@@ -15,13 +16,27 @@ h3{
     font-size: smaller;
 }
 
+
+
+div {
+    background-color: rgb(255, 231, 234);
+    border: 2px rgb(238, 199, 199) solid;
+    color: darkcyan;
+    padding: 10px;
+    width: 450px;
+    margin-bottom: 65px;
+}
 section_1{
     font-size: 10px;
-
+    text-align: justify;
+    
 }
+
 section_2{
     font-size: 10px;
-
+    background-color: aliceblue;
+    
+    color: darkcyan;
 }
 
 section_3{
