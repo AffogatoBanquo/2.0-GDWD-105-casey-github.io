@@ -1,7 +1,23 @@
 body{
     margin: 0px;
-    background-color: rgb(255, 250, 232);
+    background-color: rgb(255, 253, 245);
 }
+
+div {
+    background-color: rgb(255, 231, 234);
+    border: 1px rgb(238, 199, 199) solid;
+    color: darkcyan;
+    padding: 10px;
+    margin: 65px;
+
+}
+
+section_1{
+    
+    text-align: justify;
+    
+}
+
 
 ul{
     display: flex;
@@ -27,9 +43,10 @@ ul{
 .dropdown-menu {
     display: flex;
     flex-direction: column;
-    background-color: pink;
+    background-color: rgb(246, 220, 224);
     position: absolute;
     opacity: 0;
+    
 
 }
 
@@ -53,7 +70,7 @@ ul a hover {
 
 
 nav {
-    background-color: skyblue;
+    background-color: rgb(191, 230, 245);
 }
 
 #home {
