@@ -27,7 +27,8 @@ ul{
     padding:35px;
     justify-content: center;
     align-items: center;
-    height: 50px
+    height: 50px;
+    margin: 0px;
     
 }
 .dropdown-menu li{
@@ -77,3 +78,17 @@ nav {
     margin-right: auto;
 }
 
+/* media query */
+
+@media screen and (max-width: 1200px) {
+    main {
+        grid-template-columns: 20% 60% 20%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [nav="col-"] {
+    width: 100%;
+  }
+}
