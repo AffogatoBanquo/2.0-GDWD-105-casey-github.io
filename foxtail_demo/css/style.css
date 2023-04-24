@@ -218,3 +218,14 @@ footer h4 {
   font-family: "Bebas Neue";
   font-weight: bold;
 }
+
+/* Carosouel */
+
+.carousel-item {
+  height: 60vh;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
