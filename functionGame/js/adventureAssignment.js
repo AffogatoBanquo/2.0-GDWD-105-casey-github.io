@@ -36,14 +36,14 @@ function pressMoveDownButton() {
 
 // This function will run when the user clicks the "Move Up" button,
 // or presses the 'w' or up arrow key
-function pressMoveUpButton() {
+function pressMoveUpButton(distance=3) {
     // TODO: execute the correct function from adventureLibrary.js below!
     moveUp (pressMoveUpButton)
 }
 
 // This function will run when the user clicks the "Attack!" button,
 // or presses the spacebar on the keyboard
-function pressAttackButton() {
+function pressAttackButton(distance=3) {
     // TODO: execute the correct function from adventureLibrary.js below!
     attack (pressAttackButton)
 }

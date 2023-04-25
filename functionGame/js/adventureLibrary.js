@@ -137,7 +137,7 @@ Player Movement/Interaction Functions
 //    distance - the number of blocks the player should travel (defaults to 1),
 // Move the player left (i.e. along the negative X axis) the number of blocks
 //     specified by 'distance' until an un-crossable block is encountered
-function moveLeft(distance = 3) {
+function moveLeft(distance = 1) {
   let initX = playerX;
   let targetX = playerX;
   if (playerX - distance >= 0) {
@@ -156,7 +156,7 @@ function moveLeft(distance = 3) {
 //    distance - the number of blocks the player should travel (defaults to 1),
 // Move the player right (i.e. along the positive X axis) the number of blocks
 //     specified by 'distance' until an un-crossable block is encountered
-function moveRight(distance = 3) {
+function moveRight(distance = 1) {
   let initX = playerX;
   let targetX = playerX;
   if (playerX + distance < GRID_WIDTH) {
@@ -175,7 +175,7 @@ function moveRight(distance = 3) {
 //    distance - the number of blocks the player should travel (defaults to 1),
 // Move the player down (i.e. along the positive Y axis) the number of blocks
 //     specified by 'distance' until an un-crossable block is encountered
-function moveDown(distance = 3) {
+function moveDown(distance = 1) {
   let initY = playerY;
   let targetY = playerY;
   if (targetY + distance < grid[0].length) {
@@ -194,7 +194,7 @@ function moveDown(distance = 3) {
 //    distance - the number of blocks the player should travel (defaults to 1),
 // Move the player up (i.e. along the negative Y axis) the number of blocks
 //     specified by 'distance' until an un-crossable block is encountered
-function moveUp(distance = 3) {
+function moveUp(distance = 1) {
   let initY = playerY;
   let targetY = playerY;
   if (targetY - distance >= 0) {
@@ -213,7 +213,7 @@ function moveUp(distance = 3) {
 //    distance - the number of blocks the player should travel (defaults to 1),
 // Move the player left (i.e. along the negative X axis) the number of blocks
 //     specified by 'distance', assuming the distance is jumpable
-function jumpLeft(distance = 3) {
+function jumpLeft(distance = 1) {
   let targetX = playerX;
   if (playerX - distance >= 0) {
     targetX -= distance;
