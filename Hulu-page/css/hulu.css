@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+
+}
+
+header {
+    background-image: url("/Hulu-page/assets/hulu-bg.jpeg");
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 50vh;
+
+    
+}
+
+#bundle{
+    align-self: center;
+    text-align: center;
+
+}
+
+#bundle img{
+    height: 10vh;
+
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#banner{
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+
+}
+
+#banner img{
+    width: 20vh;
+    
+}
+
+
+/* navigation styling */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 75px;
+}
+
+nav button {
+    border: none;
+    color: #a8afbd;
+    background: none;
+}
+
+/* Main Content */
+
+main {
+    background-color: #0b0c0f;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    margin: 5;
+
+}
+
+main h5 {
+    margin: 0;
+    
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2em;
+}
+
+/* media query */
+
+@media screen and (max-width: 768px) {
+
+    #gallery {
+        grid-template-columns:  1fr 1fr;
+        grid-template-rows: auto;
+    }
+    
+}
