@@ -8,7 +8,7 @@ header {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    color: white;
+    color: rgb(0, 0, 0);
     height: 50vh;
 
     
@@ -105,10 +105,13 @@ header {
     margin-left: 5vh; */
 }
 
-/* #main_content {
-    size-adjust: 670px;
-    
-} */
+/* footer */
+
+#footer{
+    padding-top: 15px;
+    font-size: 15px;
+    color: white;
+}
 
 /* media query */
 
@@ -118,7 +121,6 @@ header {
         grid-template-columns:  1fr;
         grid-template-rows: auto;
         gap: auto;
-      
-        image-width: 50vh;
+        width: 50vh;
     }
 }
