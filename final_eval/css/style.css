@@ -1,3 +1,9 @@
+body {
+    font-family: url("/flexbox-nav/assets/avenir_ff");
+}
+
+
+
 header {
     background-image: url("../assets/disney+bg.jpeg");
     display: flex;
@@ -18,17 +24,63 @@ header {
     padding-top: 10px;
 }
 
-/* call to action Buttond */
+/* call to action Buttons */
+
 .actionButtons {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-top: 8vh;
+    justify-content: space-between;
+    margin-left: 35vh;
+    margin-right: 35vh;
 
 }
 
 
 .gtb {
+    display: flex;
+    flex-direction: column;
+    /* justify-self: center; */
+    align-items: center;
+    font-size: small;
+
+}
+
+.gat {
+    display: flex;
+    flex-direction: column;
+    /* justify-self: center; */
+    align-items: center;
+    font-size: small;
+
+}
+
+#img1 {
+    padding-bottom: 23px;
+
+}
+
+#price {
+    padding-top: 20px;
+    font-size: 13px;
+    color:
+   
+}
 
 
+/* 'Captions' */
+
+.captions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+    padding-top: 4vh;
+
+}
+
+#plan {
+    font-size: small;
+    text-decoration: underline;
 }
